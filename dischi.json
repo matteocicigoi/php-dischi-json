@@ -1,0 +1,26 @@
+{
+    "New Jersey": {
+        "artist": "Bon Jovi",
+        "release": "1988"
+    },
+    "Live at Wembley 86": {
+        "artist": "Queen",
+        "release": "1992"
+    },
+    "Ten\"s Summoner\"s Tales": {
+        "artist": "Sting",
+        "release": "1993"
+    },
+    "Steve Gadd band": {
+        "artist": "Steve Gadd Band",
+        "release": "2018"
+    },
+    "Brave new World": {
+        "artist": "Iron Maiden",
+        "release": "2000"
+    },
+    "One more car, one more rider": {
+        "artist": "Eric Clapton",
+        "release": "2002"
+    }
+}

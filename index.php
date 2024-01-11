@@ -11,6 +11,9 @@
 <body>
 
     <div id="app">
+        <ul>
+            <li v-for="(disco, index) in dischi">{{ disco }}</li>
+        </ul>
     </div>
     <!-- axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
