@@ -11,9 +11,23 @@
 <body>
 
     <div id="app">
-        <ul>
-            <li v-for="(disco, index) in dischi">{{ disco }}</li>
-        </ul>
+        <header>
+            <div class="logo"></div>
+        </header>
+        <main>
+            <!-- Disco -->
+            <article v-for="disco in dischi" @click="getJson(disco[0])">
+                <img class="image" :src="disco[1]" :alt="disco[0]"/>
+                <div class="text">
+                    <h3>{{ disco[0] }}</h3>
+                    <div v-if="info[0] === disco[0]">
+                        <h4>{{ info[1]['artist'] }}</h4>
+                        <h3>{{ info[1]['release'] }}</h3>
+                    </div>
+                </div>
+            </article>
+            <!-- Fine Disco -->
+        </main>
     </div>
     <!-- axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
