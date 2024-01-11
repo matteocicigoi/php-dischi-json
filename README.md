@@ -13,7 +13,7 @@ Mostra nella pagina i dischi salvati nel file json.
     }
 }
 ```
-## main.json
+## main.js
 ``` js
 axios.get('api.php').then((response) => {
     console.log(response.data);
